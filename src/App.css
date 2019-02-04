@@ -1,0 +1,41 @@
+.app{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.panel-container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectable-item {
+    width: 100px;
+    height: 80px;
+    background-color: #e0e0e0;
+    display: flex;
+    border-radius: 3px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.selectable-item.selected{
+    background-color: #289ed8;
+    color: white;
+}
+
+.content-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.item-container{
+    display: flex;
+    justify-content: center;
+}

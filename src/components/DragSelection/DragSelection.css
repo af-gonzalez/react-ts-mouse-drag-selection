@@ -1,0 +1,17 @@
+.selection-panel {
+    position: relative;
+    flex: 1;
+    display: flex;
+    user-select: none;
+    overflow: hidden;
+}
+
+.selection-panel .content-wrapper{
+    flex: 1;
+    overflow: auto;
+}
+
+.selection-area {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+}
